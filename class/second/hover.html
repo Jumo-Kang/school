@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>hover</title>
+  <style>
+    div{
+      display: inline-block;
+      height: 100px;
+      width: 100px;
+      background-color: red;
+    }
+    #down:hover{
+      position: relative;
+      left: 50px;
+      top: 50px;
+      background-color: green;
+    }
+    #up:hover{
+      position: relative;
+      right: 50px;
+      top: 50px;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+<h3>상대 배치, relative</h3>
+<title>relative 배치</title>
+h와 k 글자에 마우스를 올려 보세요
+<hr>
+<div>T</div>
+<div id="down">h</div>
+<div>a</div>
+<div>n</div>
+<div id="up">k</div>
+<div>s</div>
+</body>
+</html>
